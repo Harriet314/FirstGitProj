@@ -6,7 +6,7 @@ public class EdocEntry {
 	private String title; 		//VARCHAR(100) NOT NULL COMMENT '标题',
 	private String summary;     //VARCHAR(255) COMMENT'摘要',
 	private String uploaduser; //VARCHAR(50)COMMENT'上传人',
-	private String createdata; //DATE COMMENT'创建时间',
+	private String createdata; //DATE COMMENT'创建时间',   测试12345
 	public int getId() {
 		return id;
 	}
@@ -60,6 +60,7 @@ public class EdocEntry {
 		return "EdocEntry [id=" + id + ", categoryId=" + categoryId + ", title=" + title + ", summary=" + summary
 				+ ", uploaduser=" + uploaduser + ", createdata=" + createdata + "]";
 	}
+	
 	
 	
 }
